@@ -20,18 +20,31 @@ POSTGRESQL = {
     }
 }
 
+#MYSQL = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'db',
+#        'USER': 'root',
+#        'PASSWORD': 'mysql',
+#        'HOST': 'localhost',
+#        'PORT': '3306',
+#        'OPTIONS': {
+#          'autocommit': True,          
+#        },       
+#    }
+#}
+# Mysql para phythonanywhere
 MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db',
-        'USER': 'root',
-        'PASSWORD': 'mysql',
-        'HOST': 'localhost',
+        'NAME': 'franpar410$db',
+        'USER': 'franpar410',
+        'PASSWORD': 'mysql2020',
+        'HOST': 'franpar410.mysql.pythonanywhere-services.com',
         'PORT': '3306',
         'OPTIONS': {
           'autocommit': True,          
         },       
     }
 }
-
 
